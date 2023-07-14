@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Quiz Game</h1>
+        </div>
+        <div class="options">
+            <form action="" onsubmit="questionData(); return false">
+                <label for="">select number of questions:</label>
+                <select id="ques-total" name="">
+                    <option value="">5</option>
+                    <option value="">10</option>
+                    <option value="">15</option>
+                    <option value="">20</option>
+                </select>
+                <label for="">select question type:</label>
+                <select id="ques-type" name="type" id="">
+                    <option value="1">multiple</option>
+                    <option value="2">boolean</option>
+                </select>
+                <div class="break"></div>
+                <label for="">select category:</label>
+                <select id="ques-cat" name="category" id="">
+                    <option value="">General Knowledge</option>
+                    <option value="">Entertainment: Books</option>
+                    <option value="">Entertainment: Film</option>
+                    <option value="">Entertainment: Music</option>
+                    <option value="">Entertainment: Musicals & Theatres</option>
+                    <option value="">Entertainment: Television</option>
+                    <option value="">Entertainment: Video Games</option>
+                    <option value="">Entertainment: Board Games</option>
+                    <option value="">Science & Nature</option>
+                    <option value="">Science: Computers</option>
+                    <option value="">Science: Mathematics</option>
+                    <option value="">Mythology</option>
+                    <option value="">Sports</option>
+                    <option value="">Geography</option>
+                    <option value="">History</option>
+                    <option value="">Politics</option>
+                    <option value="">Art</option>
+                    <option value="">Celebrities</option>
+                    <option value="">Animals</option>
+                    <option value="">Vehicles</option>
+                    <option value="">Entertainment: Comics</option>
+                    <option value="">Science: Gadgets</option>
+                    <option value="">Entertainment: Japanese Anime & Manga</option>
+                    <option value="">Entertainment: Cartoon & Animation</option>
+                </select>
+                <label for="">select difficulty:</label>
+                <select id="ques-difficulty" name="difficulty" id="">
+                    <option value="">easy</option>
+                    <option value="">medium</option>
+                    <option value="">hard</option>
+                </select>
+                <div class="break"></div>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+        <div class="answers">
+        </div>
+            <button  class="next_btn">next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
